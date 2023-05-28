@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Digital7Mono";
+  src: url("assets/Digital7Mono-Yz9J4.ttf") format("truetype");
+}
+
 .container {
   width: 100%;
   height: 100vh;
@@ -50,6 +55,7 @@ form .display input {
   padding: 10px;
   background-color: greenyellow;
   color: #3a4452;
+  font-family: "Digital7Mono";
 }
 
 form input.equal {
